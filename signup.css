@@ -1,0 +1,65 @@
+
+ .scroll-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #00796b;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  
+  .scroll-btn:hover {
+    background-color: #004d40;
+  }
+  
+  .signup-scroll-wrapper {
+    max-width: 600px;
+    height: 80vh;
+    margin: 100px auto 40px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    overflow-y: auto;
+  }
+  
+  .signup-scroll-wrapper h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #00796b;
+  }
+  
+  .signup-scroll-wrapper input[type="text"],
+  .signup-scroll-wrapper input[type="number"],
+  .signup-scroll-wrapper input[type="email"],
+  .signup-scroll-wrapper input[type="password"],
+  .signup-scroll-wrapper input[type="date"],
+  .signup-scroll-wrapper select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .signup-scroll-wrapper button[type="submit"] {
+    width: 100%;
+    background-color: #00796b;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .signup-scroll-wrapper button[type="submit"]:hover {
+    background-color: #004d40;
+  }

@@ -1,0 +1,127 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #666969, #9dc4d8); 
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+   
+    font-size: 20px;
+}
+
+.logo-container {
+    padding: 70px;
+}
+
+.logo-container img {
+    max-width: 550px;
+    height: auto;
+}
+
+.login-container {
+    background-image: url('333044998_998151874466588_7984399887523061314_n-removebg-preview.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    max-width: 400px;
+    width: 90%;
+    margin-right: 60px;
+    color: #fff; 
+}
+
+.login-container h2 {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #fff; 
+}
+
+input[type="email"], input[type="password"], button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #00796b;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004d40;
+}
+
+a {
+    color: #00796b;
+}
+
+a:hover {
+    color: #004d40;
+}
+
+
+.login-container h2 {
+    color: #007acc;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007acc;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005f99; 
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-container {
+        margin-bottom: 20px;
+    }
+
+    .login-container {
+        margin: 0 20px;
+    }
+}
